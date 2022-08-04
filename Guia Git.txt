@@ -1,0 +1,22 @@
+Para inicializar el repositorio local
+git init
+
+Para enlazar al repositorio remoto
+git remote add origin https://github.com/starkarc/egg-etapa-git.git (ejemplo de repositorio)
+
+aclaracion el "origin" es un alias
+
+Para corroborar que el enlace entre local y remoto haya salido bien
+git remote -v
+
+Para verificar la configuracion de la pc de origen de donde se esta subiendo el proyecto, ejemplo puedo asignarle un nombre de uso
+desde la notebook y si trabajo desde una pc puedo asignar otro nombre asi para saber de donde trabajo y desde donde se subieron los
+cambios
+git config -l
+
+Para configurar el nombre del equipo
+git config --global user.name "Oscar Ramos"
+
+Para configurar el mail
+git config --global user.email "asd@asd.com"
+
