@@ -20,3 +20,20 @@ git config --global user.name "Oscar Ramos"
 Para configurar el mail
 git config --global user.email "asd@asd.com"
 
+Para verificar si hay algo en el repositorio, al ser un repo remoto vacio solo mostrara los
+archivos del repo local que sera subidos (Commiteado)
+git status
+
+Preparacion para subir los archivos
+
+Para añadir o sea iniciando en git
+git add . (es un comando generico)
+
+Al realizar nuevamente git status muestra en verde lo añadido, esto no quiere decir que este en la red aun
+sino que esta preparado para ser enviado.
+
+Realizar el commit, en este caso se comenta que se subio, es decir que se empaqueta lo que se va a subir
+git commit -m "primer commit"
+
+Para enviar el paquete mediante el alias hacia la rama master
+git push origin master
